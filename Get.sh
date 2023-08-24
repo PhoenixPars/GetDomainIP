@@ -12,6 +12,7 @@ read -p " What tool do you want to use [1/2] ? " inputtool
 if [["${inputtool}" == "1"]]; then
 bash <(curl -Ls https://raw.githubusercontent.com/PhoenixPars/ShowMyIp/main/Show.sh)
 elif [["${inputtool}" == "2"]]; then
-
+bash <(curl -Ls https://raw.githubusercontent.com/PhoenixPars/GetDomainIP/main/Get.py)
 else
-read -p " Select a tool from the menu [1/2] ! " inputtool
+echo " Select a tool from the menu [1/2] ! "
+bash <(curl -Ls https://raw.githubusercontent.com/PhoenixPars/GetDomainIP/main/Get.sh)
