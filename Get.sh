@@ -10,7 +10,7 @@ echo "————————————————————————�
 read -p " What tool do you want to use [1/2] ? " inputtool
 
 if [["${inputtool}" == "1"]]; then
-bash <(curl -Ls https://raw.githubusercontent.com/PhoenixPars/ShowMyIp/main/Show.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/PhoenixPars/ShowMyIp/main/Show.py)
 elif [["${inputtool}" == "2"]]; then
 bash <(curl -Ls https://raw.githubusercontent.com/PhoenixPars/GetDomainIP/main/Get.py)
 else
